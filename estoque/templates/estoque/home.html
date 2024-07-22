@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home_style.css' %}">
+    <title>Início - StockManager</title>
+</head>
+<body>
+    <div id="container-main">
+        <div id="barra-lateral">
+
+            <div id="logotipo"><h1>StockManager</h1></div>
+            <button class="botao-selecionado">Dashboard</button></a>
+            <button class="botao-barra">Ver estoque</button></a>
+            <button class="botao-barra">Cadastrar produto</button></a>
+            <button class="botao-barra">Realizar venda</button></a>
+
+        </div>
+        <div id="lado-direito">
+            <div id="area-cards">
+                <div class="card">
+                    <p>Quantidade de produtos</p>
+                    <h1>0</h1>
+                </div>
+                <div class="card">
+                    <p>Valor do estoque</p>
+                    <h1>R$ 0,00</h1>
+                </div>
+                <div class="card">
+                    <p>Custo do estoque</p>
+                    <h1>R$ 0,00</h1>
+                </div>
+                <div class="card">
+                    <p>Lucro do estoque</p>
+                    <h1>R$ 0,00</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#barra-lateral{
+    width: 15%;
+    height: 100%;
+    background-color: #f6f6f6;
+    box-shadow: 0px 0px 10px 3px rgba(107, 107, 107, 0.488);
+}
+
+.botao-barra{
+    width: 100%;
+    height: 6%;
+    font-size: 12pt;
+    border: none;
+    background-color: #f6f6f6;
+    color: black;
+    box-shadow: 0px 2px 2px 0px rgba(111, 111, 111, 0.249);
+    cursor: pointer;
+    margin-bottom: 1px;
+}
+
+.botao-barra:hover{
+    background-color: rgb(44, 100, 252);
+    color: white;
+}
+
+.botao-selecionado{
+    width: 100%;
+    height: 6%;
+    font-size: 12pt;
+    border: none;
+    background-color: rgb(44, 100, 252);
+    color: white;
+    box-shadow: 0px 2px 2px 0px rgba(111, 111, 111, 0.249);
+    cursor: pointer;
+    margin-bottom: 1px;
+}
+
+/*Lado direito*/
+
+#lado-direito{
+    width: 85%;
+    height: 100%;
+}
+
+#area-cards{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    height: 110px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px 0px rgba(32, 32, 32, 0.375);
+    background-color: rgb(0, 47, 255);
+    text-align: center;
+    color: white;
+    
+}
